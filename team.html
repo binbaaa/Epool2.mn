@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>ePool - Онлайн Биллиард Клуб | Манай баг</title>
+<style>
+  body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color: #1B2327;
+    color:#ECEFF1;
+    text-align:center;
+  }
+  a { color:#ECEFF1; text-decoration:none; }
+  a:hover { color:#81C784; }
+
+  /* Header */
+  header {
+    background-color:#43A047;
+    padding:15px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  header .logo-title {
+    display:flex;
+    align-items:center;
+  }
+  header img { width:70px; height:70px; margin-right:10px; }
+  header .title { font-size:2rem; font-weight:bold; color:#fff; }
+  header .subtitle { color:#B0BEC5; font-size:0.9rem; }
+  header .contact { text-align:right; font-size:0.9rem; }
+
+  /* Navigation 2 давхар */
+  nav { background-color:#2e4e44; }
+  .nav-row {
+    display:flex;
+    justify-content:space-around;
+    padding:12px 0;
+    flex-wrap:wrap;
+  }
+
+  /* Main content */
+  main { padding:20px 5%; }
+  main h2 { color:#66BB6A; margin-bottom:20px; }
+  main p { max-width:900px; margin:0 auto 30px auto; }
+
+  table.staff-table {
+    width:95%;
+    margin:0 auto 30px auto;
+    border-collapse: collapse;
+  }
+  table.staff-table th, table.staff-table td {
+    padding:12px;
+    border:1px solid #37474F;
+    text-align:left;
+  }
+  table.staff-table th { background-color:#455A64; color:#fff; }
+  table.staff-table tr:nth-child(even) { background-color:#2E3A40; }
+  table.staff-table tr:nth-child(odd) { background-color:#263238; }
+
+  hr { border:none; height:1px; background-color:#B0BEC5; margin:30px 0; }
+
+  /* Footer */
+  footer {
+    background-color:#43A047;
+    padding:15px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    font-size:0.8rem;
+  }
+  footer a { margin:0 5px; }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo-title">
+    <a href="index.html"><img src="imageslogo.jpg" alt="ePool Logo"></a>
+    <div>
+      <div class="title">ePool - Онлайн Биллиард Клуб</div>
+      <div class="subtitle">Тав тух, чанар, ухаалаг үйлчилгээ (09:00 - 02:00)</div>
+    </div>
+  </div>
+  <div class="contact">
+    Утас: <b>+976 9999-8888</b><br>
+    Имэйл: <a href="mailto:info@epool.mn">info@epool.mn</a>
+  </div>
+</header>
+
+<!-- Navigation 2 давхар -->
+<nav>
+  <div class="nav-row">
+    <a href="index.html">НҮҮР</a>
+    <a href="about.html">ТУХАЙ</a>
+    <a href="booking.html">ЗАХИАЛГА</a>
+    <a href="news.html">МЭДЭЭ</a>
+    <a href="service.html">ҮЙЛЧИЛГЭЭ</a>
+    <a href="contact.html">ХОЛБОО БАРИХ</a>
+  </div>
+  <div class="nav-row">
+    <a href="history.html">Түүх</a>
+    <a href="team.html"><b>Манай баг</b></a>
+    <a href="gallery.html">Зургийн цомог</a>
+    <a href="partners.html">Хамтрагчид</a>
+  </div>
+</nav>
+
+<hr>
+
+<!-- Main content -->
+<main>
+  <h2>Манай хамт олон</h2>
+  <p>ePool клубын амжилт нь манай туршлагатай, мэргэжлийн багийн гишүүдээс шалтгаалдаг.</p>
+
+  <table class="staff-table">
+    <tr>
+      <th>Нэр</th>
+      <th>Албан тушаал</th>
+      <th>Үүрэг, хариуцлага</th>
+    </tr>
+    <tr><td>Б.Эрдэнэ</td><td>Захирал</td><td>Клубын бүх үйл ажиллагааг удирдан зохион байгуулна.</td></tr>
+    <tr><td>С.Бат</td><td>Тоног төхөөрөмжийн менежер</td><td>Биллиардын ширээ, бөмбөг, тоног төхөөрөмжийн хяналт, засвар үйлчилгээ.</td></tr>
+    <tr><td>М.Од</td><td>Захиалга хариуцсан оператор</td><td>Тоглогчдын захиалга, цагийн менежмент, харилцаа холбоо.</td></tr>
+    <tr><td>Н.Энх</td><td>Маркетинг</td><td>Клубын сурталчилгаа, сошиал сувгийн менежмент, үйл явдлын зохион байгуулалт.</td></tr>
+    <tr><td>А.Наран</td><td>Ресепшн</td><td>Зочдыг угтах, мэдээлэл өгөх, бүртгэл хийх.</td></tr>
+    <tr><td>Б.Саруул</td><td>Ресепшн</td><td>Утас болон цахим шуудангийн хариу өгөх, захиалга хянах.</td></tr>
+    <tr><td>Ц.Бадам</td><td>Ресепшн</td><td>Тоглогчдыг бүртгэх, өрөөний захиалга зохицуулах.</td></tr>
+    <tr><td>Д.Мөнх</td><td>Ресепшн</td><td>Клубын өдөр тутмын үйл ажиллагааг дэмжих, мэдээлэл өгөх.</td></tr>
+    <tr><td>С.Өлзий</td><td>Ресепшн</td><td>Гадаад харилцаа, зочидтой харилцах.</td></tr>
+    <tr><td>Т.Ганчулуун</td><td>Ресепшн</td><td>Утас, цахим захиалгыг хянах, үйлчлүүлэгчидтэй харилцах.</td></tr>
+    <tr><td>Б.Билгүүн</td><td>Ресепшн</td><td>Өрөөний хуваарь, захиалгын бүртгэл хариуцах.</td></tr>
+  </table>
+
+  <p>Манай баг нь таны тав тух, хөгжилтэй, аюулгүй тоглолтын орчныг хангахыг зорьж ажилладаг.</p>
+</main>
+
+<hr>
+
+<!-- Footer -->
+<footer>
+  <div>
+    © 2025 ePool Онлайн Биллиард Клуб. Бүх эрх хуулиар хамгаалагдсан.<br>
+    Хаяг: СБД, 5-р хороо, Танай Хаус 101 тоот.
+  </div>
+  <div>
+    <a href="https://facebook.com/epool" target="_blank">Facebook</a> |
+    <a href="https://instagram.com/epool" target="_blank">Instagram</a>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>ePool - Мэдээ</title>
+<style>
+body {
+        margin:0;
+        font-family: Arial, sans-serif;
+        background-color: #1B2327;
+        color:#ECEFF1;
+    }
+    a { color:#ECEFF1; text-decoration:none; }
+    a:hover { color:#81C784; }
+
+    /* Header */
+    header {
+        background-color: #43A047;
+        padding:18px 5%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    header .logo-title { display:flex; align-items:center; }
+    header img { width:70px; height:70px; margin-right:10px; }
+    header .title { font-size:2rem; font-weight:bold; color:#FFFFFF; }
+    header .subtitle { font-size:0.9rem; color:#B0BEC5; }
+    header .contact { text-align:right; font-size:0.9rem; }
+
+    /* Navigation FLEX */
+    nav { background-color: #2e4e44; }
+    .nav-row {
+        display:flex;
+        justify-content:space-around;
+        padding:12px 0;
+    }
+
+
+/* Main content */
+main { padding:20px 5%; }
+main h2 { color:#66BB6A; margin-bottom:20px; }
+.news-item {
+  background:#263238;
+  border-radius:12px;
+  padding:15px;
+  margin:15px auto;
+  max-width:800px;
+  text-align:left;
+  box-shadow:0 2px 4px rgba(0,0,0,0.3);
+}
+.news-item h3 { color:#66BB6A; margin-top:0; }
+.news-item img { width:100%; border-radius:10px; margin-top:10px; border:2px solid #66BB6A; }
+.news-item p { margin:8px 0; color:#ECEFF1; line-height:1.6; }
+.news-item:first-child {
+  max-width:600px; /* Эхний мэдээний card-ийн өргөн багасгав */
+}
+
+
+/* Footer */
+footer {
+  background-color:#43A047;
+  padding:15px 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  font-size:0.8rem;
+}
+footer a { margin:0 5px; }
+
+hr { border:none; height:1px; background-color:#B0BEC5; margin:30px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-title">
+    <a href="index.html"><img src="imageslogo.jpg" alt="ePool Logo"></a>
+    <div>
+      <div class="title">ePool - Онлайн Биллиард Клуб</div>
+      <div class="subtitle">Тав тух, чанар, ухаалаг үйлчилгээ (09:00 - 02:00)</div>
+    </div>
+  </div>
+  <div class="contact">
+    Утас: <b>+976 9999-8888</b><br>
+    Имэйл: <a href="mailto:info@epool.mn">info@epool.mn</a>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-row">
+    <a href="index.html">НҮҮР</a>
+    <a href="about.html">ТУХАЙ</a>
+    <a href="booking.html">ЗАХИАЛГА</a>
+    <a href="news.html"><b>МЭДЭЭ</b></a>
+    <a href="service.html">ҮЙЛЧИЛГЭЭ</a>
+    <a href="contact.html">ХОЛБОО БАРИХ</a>
+  </div>
+  <div class="nav-row">
+    <a href="upcoming.html">Удахгүй болох үйл явдал</a>
+    <a href="tournaments.html">Тэмцээн</a>
+    <a href="results.html">Сүүлийн тэмцээний үр дүн</a>
+        
+</nav>
+
+  </div>
+</nav>
+
+<hr>
+
+<main>
+  <h2>Биллиардын шинэ мэдээ</h2>
+
+  <div class="news-item">
+    <h3>Монголд болсон сүүлийн тэмцээн</h3>
+    <p>2025 оны 10-р сарын 25-нд Улаанбаатар хотод <b>Монголын биллиардын аварга шалгаруулах тэмцээн</b> амжилттай зохион байгуулагдлаа. Оролцогчид дунд 18-45 насны тоглогчид оролцож, халуун уур амьсгал бүрдсэн байна.</p>
+    <p><b>Pool биллиардын аварга:</b> Б.Отгон<br>
+       <b>Snooker биллиардын аварга:</b> С.Энх<br>
+       <b>Шилдэг шинэ тоглогч:</b> Д.Цэнд</p>
+    <p>Тэмцээний онцлох агшин: <i>шинэ техниктэй тоглолт, хурдтай бөмбөг солилцоо, өндөр чадвартай тоглогчдын үзүүлбэр</i>.</p>
+    <img src="imagesgallery1.jpg" alt="Монголын биллиард тэмцээн">
+  </div>
+
+  <div class="news-item" style="background:#2E3A40;">
+    <h3>Дэлхийн биллиардын шинэ мэдээ</h3>
+    <p>2025 оны 10-р сарын 10-нд Английн Sheffield хотод болсон <b>World Snooker Championship</b>-т дэлхийн шилдэг тоглогчид оролцлоо. Аваргаар <b>Mark Selby (UK)</b> тодорч, дэд байрт <b>Ronnie O'Sullivan (UK)</b> шалгарсан байна.</p>
+    <p>Мөн 2025 оны 9-р сарын 30-нд БНХАУ-ын Beijing хотноо болсон <b>China Open Pool Tournament</b>-т <b>Ч.Хүслэн</b> амжилттай оролцож, шилдэг 8-д шалгарсан байна.</p>
+    <img src="world.jpg" alt="Дэлхийн биллиард тэмцээн">
+  </div>
+
+  <div class="news-item" style="background:#37474F;">
+    <h3>Сонирхогчдод зөвлөгөө</h3>
+    <p><b>Pool биллиард:</b> бөмбөгний байрлал, хурдыг зөв тааруулах</p>
+    <p><b>Snooker биллиард:</b> стратеги, ур чадвар, урт шугамын тооцоог сайжруулах</p>
+    <p><b>Тоглолт бүрт:</b> тайван, төвлөрсөн сэтгэлгээг хадгалах</p>
+  </div>
+
+</main>
+
+<hr>
+
+<footer>
+  <div>
+    © 2025 ePool Онлайн Биллиард Клуб. Бүх эрх хуулиар хамгаалагдсан.<br>
+    Хаяг: СБД, 5-р хороо, Танай Хаус 101 тоот.
+  </div>
+  <div>
+    <a href="https://facebook.com/epool" target="_blank">Facebook</a> |
+    <a href="https://instagram.com/epool" target="_blank">Instagram</a>
+  </div>
+</footer>
+
+</body>
+</html>

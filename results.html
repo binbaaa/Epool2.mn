@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>ePool - Онлайн Биллиард Клуб | Сүүлийн тэмцээний үр дүн</title>
+<style>
+body {
+        margin:0;
+        font-family: Arial, sans-serif;
+        background-color: #1B2327;
+        color:#ECEFF1;
+    }
+    a { color:#ECEFF1; text-decoration:none; }
+    a:hover { color:#81C784; }
+
+    /* Header */
+    header {
+        background-color: #43A047;
+        padding:18px 5%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    header .logo-title { display:flex; align-items:center; }
+    header img { width:70px; height:70px; margin-right:10px; }
+    header .title { font-size:2rem; font-weight:bold; color:#FFFFFF; }
+    header .subtitle { font-size:0.9rem; color:#B0BEC5; }
+    header .contact { text-align:right; font-size:0.9rem; }
+
+    /* Navigation FLEX */
+    nav { background-color: #2e4e44; }
+    .nav-row {
+        display:flex;
+        justify-content:space-around;
+        padding:12px 0;
+    }
+
+
+/* Main content */
+main { padding:20px 5%; }
+main h2 { color:#66BB6A; margin-bottom:20px; }
+
+/* Event card style */
+.event-card {
+  background:#263238;
+  border-radius:12px;
+  padding:15px;
+  margin:15px auto;
+  max-width:900px;
+  text-align:left;
+  box-shadow:0 2px 4px rgba(0,0,0,0.3);
+}
+.event-card:nth-child(even) { background:#2e4e44; }
+.event-card h3 { color:#66BB6A; margin-top:0; }
+.event-card p { margin:6px 0; }
+.event-card img { width:100%; max-width:400px; border-radius:8px; margin-top:10px; }
+
+/* Footer */
+footer {
+  background-color:#43A047;
+  padding:15px 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  font-size:0.8rem;
+}
+footer a { margin:0 5px; }
+
+hr { border:none; height:1px; background-color:#B0BEC5; margin:30px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-title">
+    <a href="index.html"><img src="imageslogo.jpg" alt="ePool Logo"></a>
+    <div>
+      <div class="title">ePool - Онлайн Биллиард Клуб</div>
+      <div class="subtitle">Тав тух, чанар, ухаалаг үйлчилгээ (09:00 - 02:00)</div>
+    </div>
+  </div>
+  <div class="contact">
+    Утас: <b>+976 9999-8888</b><br>
+    Имэйл: <a href="mailto:info@epool.mn">info@epool.mn</a>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-row">
+    <a href="index.html">НҮҮР</a>
+    <a href="about.html">ТУХАЙ</a>
+    <a href="booking.html">ЗАХИАЛГА</a>
+    <a href="news.html">МЭДЭЭ</a>
+    <a href="service.html">ҮЙЛЧИЛГЭЭ</a>
+    <a href="contact.html">ХОЛБОО БАРИХ</a>
+  </div>
+  <div class="nav-row">
+    <a href="upcoming.html">Удахгүй болох үйл явдал</a>
+    <a href="tournaments.html">Тэмцээн</a>
+    <a href="results.html"><b>Сүүлийн тэмцээний үр дүн</b></a>
+  </div>
+</nav>
+
+<hr>
+
+<main>
+  <h2>Сүүлийн тэмцээний үр дүн</h2>
+  <p>2025 оны 10-р сарын 25-нд ePool клубын хамгийн сүүлийн тэмцээн амжилттай болж өнгөрлөө.</p>
+  <ul style="max-width:900px; margin:10px auto 20px auto; text-align:left;">
+    <li>Оролцогчид төрөл бүрийн насны тоглогчид оролцож, халуун уур амьсгал бүрдсэн байна.</li>
+  </ul>
+
+  <div class="event-card">
+    <h3>Монголын биллиардын аварга шалгаруулах тэмцээн</h3>
+    <p><b>Огноо:</b> 2025 оны 10-р сарын 25</p>
+    <p><b>Байршил:</b> ePool Клуб, үндсэн өрөө</p>
+    <p><b>Аварга:</b> Б.Отгон</p>
+    <p><b>Дэд байр:</b> С.Энх</p>
+    <p><b>Гутгаар байр:</b> Д.Цэнд</p>
+    <p><b>Онцлох агшин:</b> <i>Шинэ техниктэй тоглолт, хурдтай бөмбөгийн солилцоо, хамгийн ур чадвартай тоглогчдын үзүүлбэр</i></p>
+    <p><b>Тэмцээний зорилго:</b> Монголын биллиардын тоглогчдын ур чадварыг нэмэгдүүлэх, шинэ тоглогчдыг нээх</p>
+    <img src="imagesgallery1.jpg" alt="Сүүлийн тэмцээн">
+  </div>
+</main>
+
+<hr>
+
+<footer>
+  <div>
+    © 2025 ePool Онлайн Биллиард Клуб. Бүх эрх хуулиар хамгаалагдсан.<br>
+    Хаяг: СБД, 5-р хороо, Танай Хаус 101 тоот.
+  </div>
+  <div>
+    <a href="https://facebook.com/epool" target="_blank">Facebook</a> |
+    <a href="https://instagram.com/epool" target="_blank">Instagram</a>
+  </div>
+</footer>
+
+</body>
+</html>

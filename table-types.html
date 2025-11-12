@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>ePool - Ширээний төрлүүд</title>
+<style>
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background-color:#1B2327;
+  color:#ECEFF1;
+  text-align:center;
+}
+a { color:#ECEFF1; text-decoration:none; }
+a:hover { color:#81C784; }
+
+/* Header */
+header {
+  background-color:#43A047;
+  padding:15px 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+}
+header .logo-title {
+  display:flex;
+  align-items:center;
+}
+header img { width:70px; height:70px; margin-right:10px; }
+header .title { font-size:2rem; font-weight:bold; color:#fff; }
+header .subtitle { color:#B0BEC5; font-size:0.9rem; }
+header .contact { text-align:right; font-size:0.9rem; }
+
+/* Navigation 2 давхар */
+nav { background-color:#2e4e44; }
+.nav-row {
+  display:flex;
+  justify-content:space-around;
+  padding:12px 0;
+  flex-wrap:wrap;
+}
+
+/* Main content */
+main { padding:20px 5%; }
+main h1 { color:#66BB6A; margin-bottom:10px; }
+main p { max-width:700px; margin:10px auto 20px auto; line-height:1.6; }
+.table-type {
+  background:#263238;
+  border-radius:10px;
+  padding:12px;
+  box-shadow:0 2px 4px rgba(0,0,0,0.3);
+  margin:12px auto;
+  max-width:700px;
+  text-align:left;
+}
+.table-type h3 { color:#66BB6A; margin-top:0; }
+.table-type img { width:100%; border-radius:6px; margin-top:6px; }
+.table-type p { color:#ECEFF1; margin-top:6px; }
+
+/* Footer */
+footer {
+  background-color:#43A047;
+  padding:15px 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  font-size:0.8rem;
+}
+footer a { margin:0 5px; }
+
+hr { border:none; height:1px; background-color:#B0BEC5; margin:30px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-title">
+    <a href="index.html"><img src="imageslogo.jpg" alt="ePool Logo"></a>
+    <div>
+      <div class="title">ePool - Онлайн Биллиард Клуб</div>
+      <div class="subtitle">Тав тух, чанар, ухаалаг үйлчилгээ (09:00 - 02:00)</div>
+    </div>
+  </div>
+  <div class="contact">
+    Утас: <b>+976 9999-8888</b><br>
+    Имэйл: <a href="mailto:info@epool.mn">info@epool.mn</a>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-row">
+    <a href="index.html">НҮҮР</a>
+    <a href="about.html">ТУХАЙ</a>
+    <a href="booking.html">ЗАХИАЛГА</a>
+    <a href="news.html">МЭДЭЭ</a>
+    <a href="service.html">ҮЙЛЧИЛГЭЭ</a>
+    <a href="contact.html">ХОЛБОО БАРИХ</a>
+  </div>
+  <div class="nav-row">
+    <a href="normal-room.html">Энгийн өрөө</a>
+    <a href="vip-room.html">VIP өрөө</a>
+    <a href="table-types.html"><b>Ширээний төрөл</b></a>
+    <a href="pricing.html">Үнэ</a>
+  </div>
+</nav>
+
+<hr>
+
+<main>
+  <h1>Манай Биллиардын Ширээний Төрлүүд</h1>
+  <p>Төрөл бүрийн хэмжээ, чанартай ширээнүүдийг танилцуулж байна.</p>
+
+  <!-- 1. Стандарт ширээ -->
+  <div class="table-type">
+    <h3>1. Стандарт ширээ (8 хөлтэй)</h3>
+    <img src="https://www.brunswickbilliards.com/cdn/shop/files/batch1-winfield-8-foot-pool-table__espresso_2_1946x.jpg?v=1712939397" alt="8-хөлтэй Пүүл ширээ">
+    <p><b>Үндсэн загвар:</b> AVS брэндийн, 2.4 м урттай, нийт 4 ширээ.<br>
+       <b>Тайлбар:</b> Энгийн өрөөнд байрладаг. Найз нөхөд, гэр бүлээрээ тоглоход тохиромжтой хурдан, тохь тухтай ширээ.</p>
+  </div>
+
+  <!-- 2. Мэргэжлийн тэмцээний ширээ -->
+  <div class="table-type">
+    <h3>2. Мэргэжлийн тэмцээний ширээ (9 хөлтэй)</h3>
+    <img src="https://www.brunswickbilliards.com/cdn/shop/files/batch1-black-wolf-pro-9-foot-pool-table__gully-system_6_1946x.jpg?v=1718286679" alt="9-хөлтэй мэргэжлийн ширээ">
+    <p><b>Онцлог:</b> Diamond Pro-Am загвар, 2.7 м урттай.<br>
+       <b>Тайлбар:</b> Зөвхөн VIP өрөөнд байрлана. Дээд зэргийн тоног төхөөрөмж, тэмцээний стандартад нийцсэн.</p>
+  </div>
+
+  <!-- 3. Орос Пирамид ширээ -->
+  <div class="table-type">
+    <h3>3. Орос Пирамид (12 хөлтэй)</h3>
+    <img src="https://www.biliardi.com/wp-content/uploads/2019/03/robusto02.jpg" alt="Орос Пирамид ширээ">
+    <p><b>Хэмжээ:</b> 3.6 м урттай.<br>
+       <b>Тайлбар:</b> Орос биллиард сонирхогчдод зориулсан. Хүнд бөмбөг, жижиг нүхтэй, ур чадвар шаардсан тоглоом.</p>
+  </div>
+
+  <p>Та ширээний төрөл, үнийн мэдээлэлтэй танилцаад, <a href="booking.html" style="color:#66BB6A;">Онлайн Захиалга</a> өгөх боломжтой.</p>
+</main>
+
+<hr>
+
+<footer>
+  <div>
+    © 2025 ePool Онлайн Биллиард Клуб. Бүх эрх хуулиар хамгаалагдсан.<br>
+    Хаяг: СБД, 5-р хороо, Танай Хаус 101 тоот.
+  </div>
+  <div>
+    <a href="https://facebook.com/epool" target="_blank">Facebook</a> |
+    <a href="https://instagram.com/epool" target="_blank">Instagram</a>
+  </div>
+</footer>
+
+</body>
+</html>

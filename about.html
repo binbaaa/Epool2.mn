@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>ePool - Онлайн Биллиард Клуб | Тухай</title>
+<style>
+    body {
+        margin:0;
+        font-family: Arial, sans-serif;
+        background-color: #1B2327;
+        color:#ECEFF1;
+    }
+    a { color:#ECEFF1; text-decoration:none; }
+    a:hover { color:#81C784; }
+
+    /* Header */
+    header {
+        background-color: #43A047;
+        padding:18px 5%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    header .logo-title { display:flex; align-items:center; }
+    header img { width:70px; height:70px; margin-right:10px; }
+    header .title { font-size:2rem; font-weight:bold; color:#FFFFFF; }
+    header .subtitle { font-size:0.9rem; color:#B0BEC5; }
+    header .contact { text-align:right; font-size:0.9rem; }
+
+    /* Navigation FLEX */
+    nav { background-color: #2e4e44; }
+    .nav-row {
+        display:flex;
+        justify-content:space-around;
+        padding:12px 0;
+    }
+
+    /* Main */
+    main { padding:20px 5%; }
+    main h1 { text-align:center; color:#66BB6A; }
+    main h3 { color:#66BB6A; margin-top:30px; }
+    main p, main li { line-height:1.6; }
+
+    main img { display:block; margin:20px auto; border-radius:12px; width:70%; max-width:700px;}
+
+    table { width:100%; border-collapse:collapse; margin-top:15px; }
+    table th, table td { padding:10px; }
+    table th { background:#455A64; color:#FFFFFF; }
+    table tr:nth-child(even) { background:#2E3A40; }
+    table tr:nth-child(odd) { background:#37474F; }
+
+    hr { border:none; height:1px; background-color:#B0BEC5; margin:20px 0; }
+
+    /* Footer */
+    footer {
+        background-color:#43A047;
+        font-size:0.8rem;
+        padding:18px 5%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo-title">
+        <a href="index.html">
+            <img src="imageslogo.jpg" alt="ePool Logo">
+        </a>
+        <div>
+            <div class="title">ePool - Онлайн Биллиард Клуб</div>
+            <div class="subtitle">Тав тух, чанар, ухаалаг үйлчилгээ (09:00 - 02:00)</div>
+        </div>
+    </div>
+    <div class="contact">
+        Утас: <b>+976 9999-8888</b><br>
+        Имэйл: <a href="mailto:info@epool.mn">info@epool.mn</a>
+    </div>
+</header>
+
+<!-- Navigation 2 давхар -->
+<nav>
+    <div class="nav-row">
+        <a href="index.html"><b>НҮҮР</b></a>
+        <a href="about.html"><b>ТУХАЙ</b></a>
+        <a href="booking.html">ЗАХИАЛГА</a>
+        <a href="news.html">МЭДЭЭ</a>
+        <a href="service.html">ҮЙЛЧИЛГЭЭ</a>
+        <a href="contact.html">ХОЛБОО БАРИХ</a>
+    </div>
+    <div class="nav-row">
+        <a href="history.html">Түүх</a>
+        <a href="team.html">Манай баг</a>
+        <a href="gallery.html">Зургийн цомог</a>
+        <a href="partners.html">Хамтрагчид</a>
+    </div>
+</nav>
+
+
+<!-- Main content -->
+<main>
+    <h1>ePool клубын тухай</h1>
+    <p>Манай клуб 2025 онд байгуулагдаж, орчин үеийн тоног төхөөрөмжөөр бүрэн тоноглогдсон биллиардын төв юм.
+     Тоглогчид тав тухтай орчинд, мэргэжлийн багш нарын заавраар өөрсдийн ур чадвараа дээшлүүлэх боломжтой.</p>
+
+    <img src="imagesabout.jpg" alt="ePool клуб">
+
+    <h3>Манай клубын онцлог</h3>
+    <ul>
+        <li>Орчин үеийн биллиардын ширээ, бөмбөг болон тоног төхөөрөмж</li>
+        <li>VIP өрөө, хувийн тоглоомын талбай</li>
+        <li>Туршлагатай дасгалжуулагч, багш нар</li>
+        <li>Хурдан интернет, хөгжим, гэрэлтүүлэг бүхий тав тухтай орчин</li>
+        <li>Захиалга болон тэмцээн зохион байгуулалт</li>
+    </ul>
+
+    <h3>Үйлчилгээний төрөл</h3>
+    <table border="1" bordercolor="#455A64">
+        <tr>
+            <th>Үйлчилгээ</th>
+            <th>Тайлбар</th>
+        </tr>
+        <tr>
+            <td>Биллиард тоглох</td>
+            <td>Тоглогч өөрийн хүссэн цагт ирж тоглох боломжтой.</td>
+        </tr>
+        <tr>
+            <td>VIP өрөө</td>
+            <td>Хувийн өрөөнд найз нөхөд, хамт олонтой тоглох боломжтой.</td>
+        </tr>
+        <tr>
+            <td>Дасгалжуулалт</td>
+            <td>Мэргэжлийн дасгалжуулагч таны ур чадварыг сайжруулна.</td>
+        </tr>
+        <tr>
+            <td>Тэмцээн зохион байгуулалт</td>
+            <td>Дотоод болон олон улсын тэмцээн, арга хэмжээг зохион байгуулдаг.</td>
+        </tr>
+        <tr>
+            <td>Хоол, ундаа</td>
+            <td>Тав тухтай орчинд амттай хоол, ундаа үйлчилнэ.</td>
+        </tr>
+    </table>
+</main>
+
+<hr>
+
+<!-- Footer -->
+<footer>
+    <div>
+        © 2025 <b>ePool Онлайн Биллиард Клуб</b>. Бүх эрх хуулиар хамгаалагдсан.<br>
+        Хаяг: СБД, 5-р хороо, Танай Хаус 101 тоот.
+    </div>
+    <div>
+        <a href="https://facebook.com/epool" target="_blank">Facebook</a> | 
+        <a href="https://instagram.com/epool" target="_blank">Instagram</a>
+    </div>
+</footer>
+
+</body>
+</html>

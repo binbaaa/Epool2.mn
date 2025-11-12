@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>ePool - Онлайн Биллиард Клуб | Тэмцээн</title>
+<style>
+  body {
+        margin:0;
+        font-family: Arial, sans-serif;
+        background-color: #1B2327;
+        color:#ECEFF1;
+    }
+    a { color:#ECEFF1; text-decoration:none; }
+    a:hover { color:#81C784; }
+
+    /* Header */
+    header {
+        background-color: #43A047;
+        padding:18px 5%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    header .logo-title { display:flex; align-items:center; }
+    header img { width:70px; height:70px; margin-right:10px; }
+    header .title { font-size:2rem; font-weight:bold; color:#FFFFFF; }
+    header .subtitle { font-size:0.9rem; color:#B0BEC5; }
+    header .contact { text-align:right; font-size:0.9rem; }
+
+    /* Navigation FLEX */
+    nav { background-color: #2e4e44; }
+    .nav-row {
+        display:flex;
+        justify-content:space-around;
+        padding:12px 0;
+    }
+
+
+/* Main content */
+main { padding:20px 5%; }
+main h2 { color:#66BB6A; margin-bottom:20px; }
+
+/* Event card style */
+.event-card {
+  background:#263238;
+  border-radius:12px;
+  padding:15px;
+  margin:15px auto;
+  max-width:900px;
+  text-align:left;
+  box-shadow:0 2px 4px rgba(0,0,0,0.3);
+}
+.event-card:nth-child(even) { background:#2e4e44; }
+.event-card h3 { color:#66BB6A; margin-top:0; }
+.event-card p { margin:6px 0; }
+
+/* Footer */
+footer {
+  background-color:#43A047;
+  padding:15px 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  font-size:0.8rem;
+}
+footer a { margin:0 5px; }
+
+hr { border:none; height:1px; background-color:#B0BEC5; margin:30px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-title">
+    <a href="index.html"><img src="imageslogo.jpg" alt="ePool Logo"></a>
+    <div>
+      <div class="title">ePool - Онлайн Биллиард Клуб</div>
+      <div class="subtitle">Тав тух, чанар, ухаалаг үйлчилгээ (09:00 - 02:00)</div>
+    </div>
+  </div>
+  <div class="contact">
+    Утас: <b>+976 9999-8888</b><br>
+    Имэйл: <a href="mailto:info@epool.mn">info@epool.mn</a>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-row">
+    <a href="index.html">НҮҮР</a>
+    <a href="about.html">ТУХАЙ</a>
+    <a href="booking.html">ЗАХИАЛГА</a>
+    <a href="news.html">МЭДЭЭ</a>
+    <a href="service.html">ҮЙЛЧИЛГЭЭ</a>
+    <a href="contact.html">ХОЛБОО БАРИХ</a>
+  </div>
+  <div class="nav-row">
+    <a href="upcoming.html">Удахгүй болох үйл явдал</a>
+    <a href="tournaments.html"><b>Тэмцээн</b></a>
+    <a href="results.html">Сүүлийн тэмцээний үр дүн</a>
+  </div>
+</nav>
+
+<hr>
+
+<main>
+ 
+
+  <div class="event-card">
+    <h3>2025 оны 11-р сарын 10 — Намрын аварга шалгаруулах тэмцээн</h3>
+    <p><b>Цаг:</b> 13:00 - 18:00</p>
+    <p><b>Байршил:</b> ePool Клуб, үндсэн өрөө</p>
+    <p><b>Зорилго:</b> Монголын биллиардын сонирхогчдын дунд аварга шалгаруулах, шинэ тоглогчдыг нээх</p>
+    <p><b>Тайлбар:</b> Pool болон Snooker төрөлд оролцох боломжтой. Шилдэг тоглогчид шагналтай.</p>
+  </div>
+
+  <div class="event-card">
+    <h3>2025 оны 11-р сарын 20 — VIP Cup Invitational</h3>
+    <p><b>Цаг:</b> 15:00 - 20:00</p>
+    <p><b>Байршил:</b> ePool Клуб, VIP өрөө</p>
+    <p><b>Зорилго:</b> VIP тоглогчдын дунд тэмцээн зохион байгуулах, туршлагатай тоглогчдыг урамшуулах</p>
+    <p><b>Тайлбар:</b> Урьдчилан сонгогдсон тоглогчид оролцох бөгөөд шагнал, медаль олгоно.</p>
+  </div>
+
+  <div class="event-card">
+    <h3>2025 оны 12-р сарын 5 — Гишүүнчлэлийн өдөр</h3>
+    <p><b>Цаг:</b> 10:00 - 22:00</p>
+    <p><b>Байршил:</b> ePool Клуб</p>
+    <p><b>Зорилго:</b> Гишүүддээ зориулсан өдөрлөг, тэмцээн, уралдаан</p>
+    <p><b>Тайлбар:</b> Гишүүдэд Pool болон Snooker тэмцээн, уралдаан, клубын шинэ мэдээний танилцуулга орно. Бэлэг, шагналтай.</p>
+  </div>
+
+  <center><h2>Тэмцээнд клуб дээр ирж бүртгүүлэх</h2>
+    </center>
+</main>
+
+<hr>
+
+<footer>
+  <div>
+    © 2025 ePool Онлайн Биллиард Клуб. Бүх эрх хуулиар хамгаалагдсан.<br>
+    Хаяг: СБД, 5-р хороо, Танай Хаус 101 тоот.
+  </div>
+  <div>
+    <a href="https://facebook.com/epool" target="_blank">Facebook</a> |
+    <a href="https://instagram.com/epool" target="_blank">Instagram</a>
+  </div>
+</footer>
+
+</body>
+</html>

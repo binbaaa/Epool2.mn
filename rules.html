@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>ePool - Онлайн Биллиард Клуб | Дүрэм журам</title>
+<style>
+body {
+        margin:0;
+        font-family: Arial, sans-serif;
+        background-color: #1B2327;
+        color:#ECEFF1;
+    }
+    a { color:#ECEFF1; text-decoration:none; }
+    a:hover { color:#81C784; }
+
+    /* Header */
+    header {
+        background-color: #43A047;
+        padding:18px 5%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    header .logo-title { display:flex; align-items:center; }
+    header img { width:70px; height:70px; margin-right:10px; }
+    header .title { font-size:2rem; font-weight:bold; color:#FFFFFF; }
+    header .subtitle { font-size:0.9rem; color:#B0BEC5; }
+    header .contact { text-align:right; font-size:0.9rem; }
+
+    /* Navigation FLEX */
+    nav { background-color: #2e4e44; }
+    .nav-row {
+        display:flex;
+        justify-content:space-around;
+        padding:12px 0;
+    }
+
+/* Main */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+main h2 {
+    color:#66BB6A;
+    margin-bottom:20px;
+    text-align:center;
+}
+table {
+    border-collapse: collapse;
+    width:100%;
+    margin-bottom:30px;
+}
+table th {
+    background:#43A047;
+    color:#ECEFF1;
+    padding:12px;
+    text-align:left;
+}
+table td {
+    background:#263238;
+    color:#ECEFF1;
+    padding:12px;
+    border-bottom:1px solid #B0BEC5;
+}
+table tr:first-child td { border-top:1px solid #B0BEC5; }
+table td ul { padding-left: 20px; }
+
+/* Footer */
+footer {
+    background-color:#43A047;
+    color:#ECEFF1;
+    font-size:12px;
+    padding:15px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+footer a { color:#ECEFF1; text-decoration:none; margin:0 5px; }
+hr { border:none; height:1px; background-color:#B0BEC5; margin:30px 0; }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo-title">
+        <a href="m.html"><img src="imageslogo.jpg" alt="ePool Logo"></a>
+        <div>
+            <div class="title">ePool - Онлайн Биллиард Клуб</div>
+            <div class="subtitle">Тав тух, чанар, ухаалаг үйлчилгээ (09:00 - 02:00)</div>
+        </div>
+    </div>
+    <div class="contact">
+        Утас: <b>+976 9999-8888</b><br>
+        Имэйл: <a href="mailto:info@epool.mn">info@epool.mn</a>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav class="nav-row">
+    <a href="index.html"><b>НҮҮР</b></a>
+    <a href="about.html">ТУХАЙ</a>
+    <a href="booking.html">ЗАХИАЛГА</a>
+    <a href="news.html">МЭДЭЭ</a>
+    <a href="service.html">ҮЙЛЧИЛГЭЭ</a>
+    <a href="contact.html">ХОЛБОО БАРИХ</a>
+</nav>
+
+<nav class="nav-row">
+    <a href="rules.html"><b>Дүрэм журам</b></a>
+    <a href="membership.html">Гишүүнчлэл</a>
+    <a href="snacks.html">Ундаа, хоол</a>
+    <a href="rental.html">Түрээс</a>
+</nav>
+
+<main>
+    <h2>Биллиардын дүрэм</h2>
+
+    <table>
+      <tr>
+        <th>Дүрэм</th>
+        <th>Тайлбар</th>
+      </tr>
+      <tr>
+        <td>🎱 1. Албан ёсны эхлэл цохилт (Break shot)</td>
+        <td>
+          Тоглоом эхлэхдээ бөмбөгүүдийг гурвалжин хэлбэрээр байрлуулна.<br>
+          Цагаан бөмбөгийг (cue ball) тодорхой зайнд байрлуулж, тоглогч анхны цохилт (break) хийнэ.<br>
+          Хэрэв 8-р бөмбөг шууд орвол:<br>
+          - Зарим хувилбарт дахин байрлуулж тоглоно.<br>
+          - Заримд нь тоглогч шууд хожих эсвэл дахин тоглох эрхтэй гэж үздэг.
+        </td>
+      </tr>
+      <tr>
+        <td>🎯 2. Бөмбөгийн төрөл сонгох (Stripes vs Solids)</td>
+        <td>
+          8-ball тоглоомд нийт 15 бөмбөг байдаг:<br>
+          1–7 → “бүхэл өнгөт” (solids)<br>
+          9–15 → “зураастай” (stripes)<br>
+          Break хийсний дараа аль бүлгийн бөмбөгийг эхэлж оруулсан тоглогч тухайн төрлөө авна.<br>
+          Нөгөө тоглогч эсрэг төрлийн бөмбөгийг онооно.
+        </td>
+      </tr>
+      <tr>
+        <td>⚪ 3. Дараалал баримтлах</td>
+        <td>
+          Тоглогч зөвхөн өөрийн төрлийн бөмбөгийг онох ёстой.<br>
+          Цагаан бөмбөг эхлээд өөрийн бөмбөгийг хүрч, дараа нь нүхэнд оруулах ёстой.<br>
+          Хэрэв буруу бөмбөгийг эхэлж онох эсвэл цагаан бөмбөг нүхэнд орвол алдаа (foul) тооцно.
+        </td>
+      </tr>
+      <tr>
+        <td>🚫 4. Алдаа (Foul) гаргах нөхцөл</td>
+        <td>
+          - Цагаан бөмбөг нүхэнд орох.<br>
+          - Цагаан бөмбөг ямар ч бөмбөгөнд хүрэхгүй байх.<br>
+          - Эсрэг төрлийн бөмбөгийг эхэлж онох.<br>
+          - Цагаан бөмбөгийг ширээнээс гаргах.<br>
+          ➡ Алдаа гаргавал эсрэг тоглогч “ball-in-hand” буюу цагаан бөмбөгийг дурын байрлалд тавьж тоглох эрхтэй.
+        </td>
+      </tr>
+      <tr>
+        <td>🏁 5. 8-р бөмбөгийг онох (Winning the game)</td>
+        <td>
+          Тоглогч өөрийн бүх бөмбөгийг оруулсны дараа 8-р бөмбөгийг онох ёстой.<br>
+          8-р бөмбөгийг зурагдсан (called) нүхэнд зөв онох үед ялна.<br>
+          Хэрэв 8-р бөмбөгийг:<br>
+          - Эрт оруулбал,<br>
+          - Эсвэл буруу нүхэнд онох юм бол → шууд ялагдсан гэж тооцно.
+        </td>
+      </tr>
+    </table>
+</main>
+
+<hr>
+
+<footer>
+    <div>
+        © 2025 <b>ePool Онлайн Биллиард Клуб</b>. Бүх эрх хуулиар хамгаалагдсан.<br>
+        Хаяг: СБД, 5-р хороо, Танай Хаус 101 тоот.
+    </div>
+    <div>
+        <a href="https://facebook.com/epool" target="_blank">Facebook</a> | 
+        <a href="https://instagram.com/epool" target="_blank">Instagram</a>
+    </div>
+</footer>
+
+</body>
+</html>

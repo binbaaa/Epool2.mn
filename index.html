@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>ePool - Онлайн Биллиард Клуб | Нүүр хуудас</title>
+<style>
+    body {
+        margin:0;
+        font-family: Arial, sans-serif;
+        background-color: #1B2327;
+        color:#ECEFF1;
+    }
+    a { color:#ECEFF1; text-decoration:none; }
+    a:hover { color:#81C784; }
+
+    /* Header */
+    header {
+        background-color: #43A047;
+        padding:18px 5%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    header .logo-title { display:flex; align-items:center; }
+    header img { width:70px; height:70px; margin-right:10px; }
+    header .title { font-size:2rem; font-weight:bold; color:#FFFFFF; }
+    header .subtitle { font-size:0.9rem; color:#B0BEC5; }
+    header .contact { text-align:right; font-size:0.9rem; }
+
+    /* Navigation FLEX */
+    nav { background-color: #2e4e44; }
+    .nav-row {
+        display:flex;
+        justify-content:space-around;
+        padding:12px 0;
+    }
+
+    /* Main */
+    main { padding:20px 5%; }
+    main h1 { text-align:center; color:#66BB6A; }
+    main h3 { color:#66BB6A; margin-top:30px; }
+    main p, main li { line-height:1.6; }
+
+    main img, video { display:block; margin:20px auto; border-radius:12px; width:100%; max-width:960px; }
+
+    table { width:100%; border-collapse:collapse; margin-top:15px; }
+    table th, table td { padding:10px; }
+    table th { background:#455A64; color:#FFFFFF; }
+    table tr:nth-child(even) { background:#2E3A40; }
+    table tr:nth-child(odd) { background:#37474F; }
+
+    ol { padding-left:20px; }
+
+    hr { border:none; height:1px; background-color:#B0BEC5; margin:20px 0; }
+
+    /* Footer */
+    footer {
+        background-color:#43A047;
+        font-size:0.8rem;
+        padding:18px 5%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo-title">
+        <a href="index.html">
+            <img src="imageslogo.jpg" alt="ePool Logo">
+        </a>
+        <div>
+            <div class="title">ePool - Онлайн Биллиард Клуб</div>
+            <div class="subtitle">Тав тух, чанар, ухаалаг үйлчилгээ (09:00 - 02:00)</div>
+        </div>
+    </div>
+    <div class="contact">
+        Утас: <b>+976 9999-8888</b><br>
+        Имэйл: <a href="mailto:info@epool.mn">info@epool.mn</a>
+    </div>
+</header>
+
+<!-- Navigation 2 давхар -->
+<nav>
+    <div class="nav-row">
+        <a href="index.html"><b>НҮҮР</b></a>
+        <a href="about.html">ТУХАЙ</a>
+        <a href="booking.html">ЗАХИАЛГА</a>
+        <a href="news.html">МЭДЭЭ</a>
+        <a href="service.html">ҮЙЛЧИЛГЭЭ</a>
+        <a href="contact.html">ХОЛБОО БАРИХ</a>
+    </div>
+   
+</nav>
+
+
+
+<!-- Main content -->
+<main>
+    <h1>ePool-д тавтай морилно уу!</h1>
+    <p>Онлайнаар захиалаад, амралтаа хөгжилтэй өнгөрүүлээрэй.</p>
+
+    <!-- Видео болон захиалга -->
+    <div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:space-between;">
+        <div style="flex:1; min-width:360px; text-align:center;">
+            <a href="booking.html">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                </video>
+            </a>
+        </div>
+        <div style="flex:1; min-width:360px; background:#1B2327; padding:15px; border-radius:12px;">
+            <h3 style="color:#66BB6A; text-align:center;">ХЯЛБАР ЗАХИАЛГА</h3>
+            <p>Цаг алдалгүй, гар утаснаасаа 24/7 захиалга хийгээрэй.</p>
+            <ol>
+                <li>Өрөөний төрлөө сонго</li>
+                <li>Чөлөөтэй цагийг шалга</li>
+                <li>Онлайн төлбөр хийгээрэй</li>
+            </ol>
+            <div style="text-align:center; margin-top:10px;">
+                <a href="booking.html" style="font-size:1.5rem; color:#66BB6A;"><b>→ ЦАГ ЗАХИАЛАХ</b></a><br>
+                <a href="pricing.html" style="font-size:0.8rem; color:#B0BEC5;">Урьдчилсан захиалгаар хөнгөлөлттэй!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Манай Онцлог болон Сүүлийн мэдээ -->
+    <div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:space-between; margin-top:40px;">
+        <!-- Манай Онцлог -->
+        <div style="flex:1; min-width:360px; background:#263238; padding:24px; border-radius:16px;">
+            <h3 style="color:#66BB6A; margin-top:0;">🎱 Манай Онцлог</h3>
+            <p>Манай клуб нь <b>Европ стандартын</b> тоног төхөөрөмжөөр бүрэн тоноглогдсон.</p>
+            <table style="width:100%; color:#ECEFF1; font-size:15px; margin-top:12px;">
+                <tr style="background:#455A64; color:#FFFFFF;">
+                    <th>Төрөл</th>
+                    <th>Багтаамж</th>
+                    <th>Үнэ</th>
+                </tr>
+                <tr style="background:#37474F;">
+                    <td>VIP Өрөө</td><td>4-6 хүн</td><td style="color:#81C784; text-align:center;">40,000₮</td>
+                </tr>
+                <tr style="background:#2E3A40;">
+                    <td>Стандарт Өрөө</td><td>1-4 хүн</td><td style="color:#81C784; text-align:center;">20,000₮</td>
+                </tr>
+                <tr style="background:#37474F;">
+                    <td>8 хөлтэй стандарт ширээ</td><td>1-4 хүн</td><td style="color:#81C784; text-align:center;">20,000₮</td>
+                </tr>
+                <tr style="background:#2E3A40;">
+                    <td>9 хөлтэй тэмцээний ширээ</td><td>1-4 хүн</td><td style="color:#81C784; text-align:center;">20,000₮</td>
+                </tr>
+                <tr style="background:#37474F;">
+                    <td>12 хөлтэй орос пирамид</td><td>1-4 хүн</td><td style="color:#81C784; text-align:center;">20,000₮</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Сүүлийн мэдээ -->
+        <div style="flex:1; min-width:360px; background:#263238; padding:24px; border-radius:16px;">
+            <h3 style="color:#66BB6A; margin-top:0;">📰 Сүүлийн мэдээ, тэмцээн</h3>
+            <table style="width:100%; color:#ECEFF1; font-size:15px; margin-top:12px;">
+                <tr style="background:#455A64; color:#FFFFFF;">
+                    <th>Огноо</th>
+                    <th>Мэдээ</th>
+                </tr>
+                <tr style="background:#37474F;">
+                    <td>2025.10.28</td>
+                    <td><a href="vip-room.html" style="color:#81C784; text-decoration:none;">VIP өрөө нэмэгдлээ!</a></td>
+                </tr>
+                <tr style="background:#2E3A40;">
+                    <td>2025.10.25</td>
+                    <td><a href="upcoming.html" style="color:#81C784; text-decoration:none;">Сонирхогчдын тэмцээн зарлагдлаа.</a></td>
+                </tr>
+                <tr style="background:#37474F;">
+                    <td>2025.10.20</td>
+                    <td><a href="rules.html" style="color:#81C784; text-decoration:none;">Биллиардын 5 дүрэм.</a></td>
+                </tr>
+                <tr style="background:#2E3A40;">
+                    <td>2025.10.15</td>
+                    <td><a href="tournaments.html" style="color:#81C784; text-decoration:none;">Манай клубын амжилт!</a></td>
+                </tr>
+                <tr style="background:#455A64;">
+                    <td colspan="2" style="text-align:right;"><a href="tournaments.html" style="color:#FFFFFF;">Бүх мэдээ →</a></td>
+                </tr>
+            </table>
+
+            <p style="text-align:center; color:#ECEFF1; margin-top:16px;">🎥 <b>Долоо хоногийн онцлох бичлэг:</b></p>
+            <a href="video.mp4" target="_blank">
+                <img src="images/video_thumb.jpg" alt="Тэмцээний видео бичлэг" style="width:100%; border-radius:12px; border:2px solid #66BB6A;">
+            </a>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Давуу талууд -->
+    <h3 style="text-align:center; color:#66BB6A;">Бидний Давуу Талууд</h3>
+    <div style="display:flex; flex-wrap:wrap; gap:15px; justify-content:space-between; margin-top:20px;">
+        <div style="flex:1; min-width:360px; background:#1B2327; padding:15px; text-align:center; border:1px solid #B0BEC5;">
+            <h4 style="color:#66BB6A;">Өндөр Чанар</h4>
+            <p>“Dynamic” брэндийн *чанарын ширээтэй*.</p>
+            <a href="about.html#equipment" style="color:#66BB6A;">Дэлгэрэнгүй &raquo;</a>
+        </div>
+        <div style="flex:1; min-width:360px; background:#1B2327; padding:15px; text-align:center; border:1px solid #B0BEC5;">
+            <h4 style="color:#66BB6A;">Төв Байршил</h4>
+            <p>Хотын төвд, *үнэгүй дулаан зогсоолтой* клуб.</p>
+            <a href="contact.html" style="color:#66BB6A;">Газрын зураг &raquo;</a>
+        </div>
+    </div>
+</main>
+
+<hr>
+
+<!-- Footer -->
+<footer>
+    <div>
+        © 2025 <b>ePool Онлайн Биллиард Клуб</b>. Бүх эрх хуулиар хамгаалагдсан.<br>
+        Хаяг: СБД, 5-р хороо, Танай Хаус 101 тоот.
+    </div>
+    <div>
+        <a href="https://facebook.com/epool" target="_blank">Facebook</a> | 
+        <a href="https://instagram.com/epool" target="_blank">Instagram</a>
+    </div>
+</footer>
+
+</body>
+</html>
